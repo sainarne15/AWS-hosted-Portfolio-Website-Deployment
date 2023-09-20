@@ -1,4 +1,4 @@
-### Instructions
+## Instructions
 
 1. Install Terraform CLI
 2. Install AWS CLI
@@ -8,10 +8,10 @@
 
 After Setting up all these, write the provider.tf and main.tf files in the terraform folder
 
--> Move the website build folder to the same file
+**Move the website build folder to the same file**
 
 
-## Main.tf
+### Main.tf
 
 1. In this file, create the EC2 Resource of name "Narne" with the key-pair and also attach the security group that is going to be created.
 2. Create a another resource "website" for the file provisioning and for the execution of sh commands. Also create the ssh connection.
